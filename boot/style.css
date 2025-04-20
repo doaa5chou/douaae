@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.top{
+    background-color: aqua; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, yellow, green);
+}
+a{
+    text-decoration: none;
+    color: greenyellow;
+}
+.tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ul{
+    list-style-type: none;
+}
+.content{
+    display: flex;
+}
